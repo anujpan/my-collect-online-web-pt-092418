@@ -6,4 +6,5 @@ def my_collect(arr)
     new_array.push(yield(arr[i])) && i += 1
   end
   
+  new_array
 end
